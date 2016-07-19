@@ -1,0 +1,141 @@
+/*---------------------------Media Queries------------------------------*/   
+
+@media only screen and (min-width: 768px) {
+  .carousel-caption p {
+    display: block;
+  }
+}
+@media only screen and (min-width: 980px) {
+  body {
+
+  }
+  .container-fluid {
+    max-width: 970px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #inner-footer {
+    padding: 0;
+  }
+  #content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .topbar-inner {
+    padding: 0;
+  }
+  .topbar form.pull-right {
+    float: right;
+  }
+  .navbar-search {
+    padding-left: 0;
+  }
+  .blog .hero-unit {
+    margin-top: 10px;
+  }
+  .page-template-page-homepage-php .hero-unit,
+  .blog .hero-unit {
+    padding: 60px;
+  }
+  .hero-unit h1 {
+    font-size: 60px;
+  }
+  /* hide edit comment button and show on hover on desktop version */
+  .edit-comment {
+    display: none;
+  }
+  .vcard:hover .edit-comment {
+    display: inline-block;
+  }
+  .comment .vcard .comment-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+	.desc-box{ min-height:inherit; height:auto;}
+}
+
+
+@media (max-width: 992px) {
+.navbar-header,#main-nav .nav{width:100%;text-align:center;}   
+.header-first .navbar-header{ width:auto;}
+.header-third .navbar-header{ width:auto;}
+.news-content .news-media{bottom:-55px;}
+.nav > li > a { font-size:11px;}
+
+}
+
+@media (max-width: 767px) {
+body,p{font-size:16px;line-height:21px;}    
+h1,{font-size:24px;line-height:28px;}    
+h2{font-size:21px;line-height:24px;}  
+.navbar-default{ /*padding-bottom:15px;*/} 
+.header-first .navbar-nav{ float:none;}
+.navbar-nav{ float:none; margin:0px;} 
+.header_right{ text-align:center; margin:0 auto; float:none; padding-bottom:15px;}
+.nav > li{ text-align:left;}
+ul.nav li.dropdown:hover > ul.dropdown-menu{ display:block; width:100%;}
+.page-title{font-size:42px;line-height:52px;}
+.section-title{font-size:28px;line-height:36px;}
+.section-description{font-size:18px;}
+.cta .cta-message p,.cta .cta-message strong{}
+.navbar-header,#main-nav .nav{width:auto;}
+.navbar-brand{float:left;}
+.cta .cta-message {text-align:center;}    
+.services .item{margin-bottom:60px;}
+.process-list li{display:block;width:100%;text-align:center;}
+.process-line{display:none;}
+.team-member .member-thumb{margin-bottom:30px;}
+.team-member{margin-bottom:60px;}.team-member .member-thumb img{width:300px;max-width:100%;}   
+.team-member .member-details:after,
+.team-member.right .member-details:after {left:50%;margin-left:-20px;top:-40px;border-left:20px solid transparent;border-right:20px solid transparent;border-bottom:20px solid #fafafa;box-shadow:none;-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:border-bottom-color .3s ease-out;transition:border-bottom-color .3s ease-out;}   
+.team-member:hover .member-details:after,
+.team-member.right:hover .member-details:after {border-right-color:transparent;border-left-color:transparent;border-bottom-color:#5CC9DF;}   
+.team-member .member-details,.team-member.right .member-details {margin:20px 0 0 0;}
+/*.member-thumb .team-icon-color {}   */
+.project-item .project-thumb{max-width:400px;margin:0 auto;}
+.pricing .item{top:0;margin:0 auto 40px;max-width:400px;}
+.news-item.right {margin-top:0;}
+.news-item .news-content,.news-item.right .news-content {margin:40px 0 0;}
+.news-item .news-content:after,.news-item .news-content:before {display:none;}
+.menu-center ul{ display:block; float:none; text-align:left;}
+.menu-center ul li{ float:none; display:block}
+.navbar-default.header-height, .header_right_inner{ height:auto !important}
+
+.very_top_bar .widget ul{ text-align:center}
+
+	.main-header { text-align:center;}
+	.navbar-toggle { float:right !important;}
+	.pull-right { float:none !important;}
+	.main-header .form-group { margin:0 auto;}
+	#inner-footer { text-align:center;}
+	.footer-links { float:none;}
+	
+	.footer-links .menu { text-align:center; }
+	.footer-links .menu li { float:none; display:inline-block;}
+	.fooer-logos { margin-right:0px !important;}
+	.nav-tabs > li.active > a{font-size: 14px;}
+	.footer-bottom{ text-align:center}
+	.footer-bottom ul.socal_bookmarks{ text-align:center; margin-top:20px;}
+	footer .widgettitle{margin-top: 50px;  margin-bottom: 10px;}
+	.so-widget-st_features .sow-features-list .sow-features-feature{ padding-top:15px; display:block; float:none; width:80% !important; margin:0 auto; margin-bottom:15px;}
+	.so-widget-st_features .sow-features-list .sow-features-feature .textwidget{ padding-right:0 !important}
+	.so-widget-st_features .sow-features-list .sow-features-feature .sow-icon-container{ padding-top:0px !important; float:none !important;}
+}
+@media (max-width: 600px) {
+	.so-widget-st_features .sow-features-list .sow-features-feature{ padding-top:15px; display:block; float:none; width:90% !important; margin:0 auto; margin-bottom:15px;}
+	
+}
+@media (max-width: 479px) {
+.news-item .news-content {padding-left:80px;}    
+.news-content .date {width:60px;}   
+.news-content .date p{font-size:38px;line-height:38px;}
+.news-content .date small{font-size:21px;line-height:21px;}    
+.news-content .news-title{font-size:21px;}
+.news-content p{line-height:21px;}
+}   

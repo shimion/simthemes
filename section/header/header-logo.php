@@ -1,0 +1,1 @@
+<a class="navbar-brand" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php  if(ot_get_option( 'logo_url' )){  echo '<img src="'.ot_get_option( 'logo_url' ).'" />'; }else{bloginfo('name');} ?></a>

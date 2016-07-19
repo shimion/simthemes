@@ -1,0 +1,8 @@
+option tree
+
+http://www.techipost.com/2012/09/10/how-to-integrate-optiontree-for-wordpress-theme/
+
+
+
+Add new option type:
+http://wordpress.stackexchange.com/questions/104410/how-to-add-new-option-types-to-option-tree
